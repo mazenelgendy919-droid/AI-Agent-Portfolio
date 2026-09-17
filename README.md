@@ -1,6 +1,6 @@
 ﻿# Enterprise AI Agent & RAG Engineering Portfolio 🤖🚀
 
-A production-grade portfolio showcasing **Autonomous AI Agents**, **Multi-Agent Systems**, **Retrieval-Augmented Generation (RAG)** architectures, and **Model Fine-Tuning (LoRA)** engineered using Python, LangChain, FastAPI, ChromaDB, and PyTorch.
+A production-grade portfolio showcasing **Autonomous AI Agents**, **Multi-Agent Systems**, **Retrieval-Augmented Generation (RAG)** architectures, and **Model Fine-Tuning (LoRA)** engineered using Python, LangChain, ChromaDB, and PyTorch.
 
 ---
 
@@ -14,11 +14,11 @@ This repository demonstrates advanced LLM orchestration, structured grounding, a
 
 ---
 
-## 📂 Production Systems & Notebook Workflows
+## 📂 Featured Production Systems & Notebook Workflows
 
-### 1. 🚀 [Darby — Full-Stack Multi-Agent Career Platform](./Darby/)
-* **Architecture**: Full-Stack Production Multi-Agent Architecture
-* **Stack**: FastAPI, React (LTR/RTL), ChromaDB RAG, Tavily Search, SQLite
+### 1. 🚀 [Darby — Multi-Agent Career & Learning Platform](./Darby_(Find_your_path_in_tech).ipynb)
+* **Type**: Flagship Multi-Agent Architecture
+* **Stack**: Python, LangChain, ChromaDB RAG, Tavily Search
 * **Technical Scope**: Coordinates 6 specialized agents (Intent, RAG, Web Research, Recommendation, Critic, Response Agent) via a central orchestrator.
 
 ### 2. 💬 [Full-Stack AI Agent Chat Web Application](./AI_Agent_Chat_Web_Application_(End_to_End).ipynb)
@@ -49,7 +49,7 @@ This repository demonstrates advanced LLM orchestration, structured grounding, a
 * **Type**: Low-Level RAG Implementation
 * **Technical Scope**: Custom RAG implementation without high-level wrappers, managing similarity search calculations and prompt context insertion manually.
 
-### 9. 🎯 [Structured Output & Schema Enforcement Workflow](./Structured_Output.ipynb)
+### 9. 🎯 [Structured Output Workflow](./Structured_Output.ipynb.ipynb)
 * **Type**: Function Calling & Validation
 * **Technical Scope**: Enforcing strict JSON outputs from LLMs for downstream service integration, error recovery, and schema validation.
 
@@ -61,16 +61,12 @@ This repository demonstrates advanced LLM orchestration, structured grounding, a
 * **Type**: Agent Fundamentals
 * **Technical Scope**: Demonstrates core ReAct loops, prompt decomposition, and decision execution frameworks.
 
-### 12. 📘 [Darby Architecture Prototype Notebook](./Darby_(Find_your_path_in_tech).ipynb)
-* **Type**: Concept Validation Notebook
-* **Technical Scope**: Initial exploratory testing and evaluation notebook for the Darby Multi-Agent logic.
-
 ---
 
 ## 🛠️ Technical Stack & Tools
 
 * **Core Language**: Python 3.11+
-* **Frameworks & Libraries**: FastAPI, LangChain, PyTorch, Pydantic v2
+* **Frameworks & Libraries**: LangChain, PyTorch, Pydantic v2
 * **Vector DB & Embeddings**: ChromaDB, Sentence-Transformers (ll-MiniLM-L6-v2)
 * **LLM Providers & Fine-Tuning**: Google Gemini API, HuggingFace PEFT / LoRA
 * **Web Search & Connectors**: Tavily API, REST APIs, SQLite
